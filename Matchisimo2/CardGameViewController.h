@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CardGameViewController : UIViewController
 
+@interface CardGameViewController : UIViewController
+-(void)animateFlipCard:(UIButton *)sender; 
 @end
